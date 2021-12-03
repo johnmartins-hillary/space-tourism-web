@@ -1,0 +1,91 @@
+.destination-moon {
+  display: flex;
+  flex-direction: column;
+  padding: 200px;
+}
+.title {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 32px;
+  padding-bottom: 30px;
+  margin-left: 0;
+   animation: fadeIn 1s ease-in-out forwards;
+}
+.title > span {
+  color: var(--grey);
+  padding-right: 15px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+}
+.planet {
+  flex: 0.5;
+  align-items: center;
+  justify-self: flex-end;
+  padding-top: 50px;
+   animation: fadeIn 2s ease-in-out forwards;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+   animation: fadeIn 3s ease-in-out forwards;
+}
+.desc-title {
+  font-size: var(--heading-2);
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+.main-desc {
+  font-size: var(--heading-5);
+  color: var(--grey);
+}
+
+.travel-details {
+  display: flex;
+}
+
+.dist {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+}
+
+.dist > h5{
+  text-transform: uppercase;
+  color: var(--grey);
+}
+
+.dist > p{
+  text-transform: uppercase;
+  color: var(--white);
+  font-size: var(--heading-5);
+}
+.time > h5{
+  text-transform: uppercase;
+  color: var(--grey);
+}
+
+.time > p{
+  text-transform: uppercase;
+  color: var(--white);
+  font-size: var(--heading-5);
+}
+
+.time {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

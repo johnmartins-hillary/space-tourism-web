@@ -1,0 +1,35 @@
+.horizontal {
+  font-size: 1px;
+  color: var(--grey);
+  flex: 0.3;
+  margin-right: -40px;
+  flex-grow: 0.4;
+  z-index: 2;
+}
+
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
+  z-index: 1000;
+}
+
+.navigations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0.5;
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 0;
+}

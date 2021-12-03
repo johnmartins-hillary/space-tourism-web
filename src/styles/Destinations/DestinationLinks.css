@@ -1,0 +1,17 @@
+.destination-links {
+  display: flex;
+  flex-direction: row;
+  padding: 4px;
+  padding-bottom: 35px;
+  margin: 0;
+}
+.destination-links > a {
+  text-transform: uppercase;
+  color: var(--white);
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.destination-links > a:visited {
+  border-bottom: 4px solid var(--white);
+}

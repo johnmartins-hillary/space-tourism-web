@@ -1,0 +1,16 @@
+.app {
+  margin: 0;
+  width: 100%;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  color:var( --white);
+  padding: 0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  font-family: sans-serif;
+  user-select: none;
+  /* overflow: hidden; */
+  /* position: relative; */
+}
